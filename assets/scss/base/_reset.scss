@@ -1,19 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: $fs-small;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: $fs-small;
 }
 .container {
-    width: 100%;
-    overflow-x:hidden;
-    display: grid;
-    
-    
-    grid-template-areas: " nav nav nav nav"
-                         "test test test aside"
-                         "test test test aside"
-                         "news news news news"
-                         "footer footer footer footer";
+  width: 100%;
+  overflow-x: hidden;
+  display: grid;
+
+  grid-template-areas:
+    " nav nav nav nav"
+    "test test test aside"
+    "test test test aside"
+    "news news news news"
+    "footer footer footer footer";
 }

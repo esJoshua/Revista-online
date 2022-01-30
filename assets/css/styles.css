@@ -17,7 +17,7 @@ body {
 }
 
 .newsletter__button {
-  color: white;
+  color: #fff;
   background-color: orange;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -187,8 +187,8 @@ a {
 .footer {
   grid-area: footer;
   background-color: #000000;
-  text-align: center;
   color: #fff;
+  text-align: center;
   padding: 1rem;
 }
 
@@ -202,7 +202,8 @@ a {
   font-weight: 900;
   font-size: 20px;
 }
-.newsletter__input > input, .newsletter __button {
+.newsletter__input > input,
+.newsletter __button {
   display: inline-block;
 }
 .newsletter__input > input {

@@ -1,26 +1,24 @@
 .newsletter {
-    grid-area: news;
-    background-color: $color-bisque;
-    text-align: center;
-    padding: 1rem;
-    
-    &__title {
-        font-weight: $fw-black;
-        font-size: $fs-x-large ;
+  grid-area: news;
+  background-color: $color-bisque;
+  text-align: center;
+  padding: 1rem;
 
-    }
+  &__title {
+    font-weight: $fw-black;
+    font-size: $fs-x-large;
+  }
 
-    &__input > input, __button {
-        display: inline-block;
-        
-        }
-    &__input > input {
-        color: gray;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  width: 12rem;
-  height: 2rem;
-  padding-left: 8px;
-    }
-
+  &__input > input,
+  __button {
+    display: inline-block;
+  }
+  &__input > input {
+    color: gray;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 12rem;
+    height: 2rem;
+    padding-left: 8px;
+  }
 }

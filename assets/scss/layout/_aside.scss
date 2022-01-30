@@ -1,41 +1,43 @@
 .aside {
-    grid-area: aside;
-    background-color: $color-white;
-    display:flex;
-    flex-direction: column;
-    min-width: 150px;
-    max-width: 300px;
-    padding: 0 40px 10px 15px;
-    p {
-        padding: 10px 0 10px 0;
-    }
-    ul {
-        display: flex;
-        flex-direction: row;
-        padding: 10px 0 10px 0;
-    }
-    &__tags--list { 
-        background-color: $color-orange;
-    }
-    &__tags--list+&__tags--list {
-        margin-left: 10px;
-    }
-    
-    &__about, &__tags{
-        border-bottom: 2px solid gray;
-    }
-    &__about, &__tags, &__highlight, &__highlight-card > h4 {        
-        padding: 10px 0 10px 0;     
-    }
-    &__highlight {
-        padding: 10px 0 10px 0;
-    }
-    &__img {
-        width: 100%;
-    } 
-    @media screen and (max-width: 576px) {
-        display: none;
-            
-        }       
+  grid-area: aside;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  max-width: 300px;
+  padding: 0 40px 10px 15px;
+  p {
+    padding: 10px 0 10px 0;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+  }
+  &__tags--list {
+    background-color: $color-orange;
+  }
+  &__tags--list + &__tags--list {
+    margin-left: 10px;
+  }
 
+  &__about,
+  &__tags {
+    border-bottom: 2px solid gray;
+  }
+  &__about,
+  &__tags,
+  &__highlight,
+  &__highlight-card > h4 {
+    padding: 10px 0 10px 0;
+  }
+  &__highlight {
+    padding: 10px 0 10px 0;
+  }
+  &__img {
+    width: 100%;
+  }
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
 }
