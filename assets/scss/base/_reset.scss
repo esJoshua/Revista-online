@@ -6,12 +6,14 @@
     
 }
 .container {
-    
+    width: 100%;
+    overflow-x:hidden;
     display: grid;
     
+    
     grid-template-areas: " nav nav nav nav"
-                         "card card card aside"
-                         "card card card aside"
+                         "test test test aside"
+                         "test test test aside"
                          "news news news news"
                          "footer footer footer footer";
 }

@@ -1,7 +1,7 @@
 .navigation {
     grid-area: nav;
     font-size: 24px;
-    background-color: chartreuse;
+    background-color: $color-white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,12 +21,29 @@
     }
     &__input {
         border-radius: 30px;
+        width: 100px;
+    
+        
     }
 }
 ul{
-    list-style:none
+    display: flex;
+    list-style:none;
+    
+    
+}
+li+li {
+    padding: 0 5px 0 5px;
 }
 a {
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;  
+    color: $color-blue;  
+}
+
+.navigation__us {
+    @media screen and (max-width: 576px) {
+        display: none;
+            
+        }      
 }
