@@ -1,0 +1,27 @@
+.main-cards {
+    display: contents;
+    background-color: blueviolet;
+    
+}
+
+__container {
+    grid-area: cards;
+    // &--1{
+    //     grid-area: card1;        
+    // }
+    // &--2{
+    //     grid-area: card2;
+    // }
+    // &--3{
+    //     grid-area: card3;        
+    // }
+    // &--4{
+    //     grid-area: card4;
+    // }
+    // &--5{
+    //     grid-area: card5;
+    // }
+    // &--6{
+    //     grid-area: card6;
+    //}
+}

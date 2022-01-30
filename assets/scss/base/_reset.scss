@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: $fs-small;
+    
+}
+.container {
+    
+    display: grid;
+    
+    grid-template-areas: " nav nav nav nav"
+                         "card card card aside"
+                         "card card card aside"
+                         "news news news news"
+                         "footer footer footer footer";
+}

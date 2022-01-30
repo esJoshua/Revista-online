@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: " nav nav nav nav" "card card card aside" "card card card aside" "news news news news" "footer footer footer footer";
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navigation {
+  grid-area: nav;
+  font-size: 24px;
+  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid gray;
+}
+.navigation__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navigation__deploy {
+  display: inline-block;
+  text-align: right;
+}
+.navigation__input {
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-cards {
+  display: contents;
+  background-color: blueviolet;
+}
+
+__container {
+  grid-area: cards;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: aquamarine;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: bisque;
+  text-align: center;
+}
+
+.newsletter {
+  grid-area: news;
+  background-color: darkcyan;
+  text-align: center;
+}
+.newsletter__input > input, .newsletter __button {
+  display: inline-block;
+  border-width: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

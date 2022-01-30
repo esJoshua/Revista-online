@@ -1,0 +1,10 @@
+.newsletter {
+    grid-area: news;
+    background-color: darkcyan;
+    text-align: center;
+
+    &__input > input, __button {
+        display: inline-block;
+        border-width: 0;
+    }
+}
